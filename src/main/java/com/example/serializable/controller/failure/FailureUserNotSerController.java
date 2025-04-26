@@ -12,7 +12,7 @@ import java.io.ObjectOutputStream;
 
 @RestController
 @RequestMapping("/api/failure/user")
-public class FailureUserNotSerializableController {
+public class FailureUserNotSerController {
 
     @Autowired
     private UserNotSerializableService userService;
